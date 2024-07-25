@@ -1,15 +1,15 @@
-//let names = ['Anna', 'Ben', 'Clara']
 
-let fruits = ["apple", "banana", "strawberry", "pineapple", "lime"]
 
-let singleTestVar = "tarik";
+let names = ["Anna", "Ben", "Clara"]    // case sensitive in JS
+
+
 
 function containsElement(array, element){
-    return array.includes(element);
+    return array.includes(element, 2);   
 
 }
 
 
 function initArrays(){
-    console.log(containsElement(fruits, "banana"));     //the length is changed and adds a new element at the end of the array
+    console.log(containsElement(names, "Ben"));   //case sensitive in JS
     }
