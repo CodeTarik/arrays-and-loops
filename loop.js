@@ -7,9 +7,11 @@ function containsElement(array, element){
 }
 
 function initArrays(){
-    
-    for (let indexFruits = 0; indexFruits < 7; indexFruits += 3) {
-        console.log(indexFruits);   
+    let contentRef = document.getElementById('my_Content');
+    contentRef.innerHTML = '';
+    for (let indexFruits = 0; indexFruits < fruits.length; indexFruits++) {
+        contentRef.innerHTML += `<p>${indexFruits + " " + fruits[indexFruits]}</p>`
     }
+
     
 }
