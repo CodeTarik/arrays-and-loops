@@ -23,4 +23,14 @@ function initArrays(){
     return sum;
 }
 
-console.log(sumArray([3, 7, 1, 4]));
+//console.log(sumArray([3, 7, 1, 4]));
+//console.log(sumArray([1, 2, 3, 4, 5])); 
+
+
+function printNumbers(){
+    let num = [1, 2, 3, 4, 5];
+    for (let i = 0; i < 3; i++) {
+    console.log(num[i]);
+    }
+     
+}
